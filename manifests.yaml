@@ -13,7 +13,7 @@ spec:
         app: kargo-demo
     spec:
       containers:
-      - image: public.ecr.aws/nginx/nginx:1.27.1
+      - image: public.ecr.aws/nginx/nginx:1.27.2
         name: nginx
         volumeMounts:
         - mountPath: /usr/share/nginx/html
@@ -44,7 +44,7 @@ data:
     <!DOCTYPE html>
     <html>
     <head>
-    <title>test</title>
+    <title>this is a test</title>
     </head>
     <body>
 
